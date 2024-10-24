@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+Use cases we're interested in:
+1. Interactive storytelling, such as new gameplay mechanics and roleplaying.
+2. Adapation, such as books to movies, games, or podcasts.
+3. Localization.
+4. Personalized education.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Tép Studio</title>
+  
+  <!-- Link to Comic Neue font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Add some basic styling -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Comic Neue', cursive;
+      background-color: #d5cabfff; /* Muted beige tone */
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 600px;
+      padding: 20px;
+    }
+
+    .logo {
+      width: 130px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 3em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.6em;
+      margin-bottom: 20px;
+      font-weight: 400;
+      color: #55514d;
+    }
+
+    body-text {
+      font-size: 1.1em;
+      margin-bottom: 40px;
+      color: #55514d;/* color: #fffdf3; */
+    }
+    footer-text {
+      font-size: 1.1em;
+      margin-bottom: 40px;
+      color: #55514d;
+    }
+    .footer {
+      margin-top: 220px;
+      font-size: 1em;
+      font-weight: 100; /* Super light font */
+      color: #55514d;
+    }
+    /* Media query for mobile devices (less than 600px wide) */
+    @media (max-width: 600px) {
+      .footer {
+        margin-top: 120px; /* Smaller gap on mobile */
+      }
+    }
+  </style>
+  <!-- <link rel="icon" href="favicon.svg" sizes="32x32 type="image/svg+xml"> -->
+  <link rel="icon" href="favicon.png" sizes="32x32 type="image/png">
+</head>
+<body>
+  <div class="container">
+    <img src="tep-logo.png" alt="Tép Studio Logo" class="logo">
+    <h1>Tép Studio</h1>
+    <h2>AI for Storytelling</h2>
+    <body-text>
+      We're interested in how AI will transform the way <br>we create, adapt, and consume content.<br>
+      [Coming soon]
+    </body-text>
+    <div class="footer">
+      <footer-text>
+        <strong>tép (vietnamese):</strong> a tiny shrimp that can move incredibly fast.
+      </footer-text>
+    </div>
+  </div>
+</body>
+</html>
